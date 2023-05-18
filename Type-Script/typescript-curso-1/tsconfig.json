@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js", //onde gera os arquivos em JS
+        "target": "ES6", //versão do Javascript
+        "noEmitOnError": true, //não permite compilar(gerar arquivos JS) com erros no TS
+        "noImplicitAny": true //não permite o TS inserir automaticamente o tipo Any nas propriedade
+    },
+    "include": ["app/**/*"] //lê os arquivos TS de app
+}
