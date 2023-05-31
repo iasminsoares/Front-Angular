@@ -3,7 +3,10 @@
         "outDir": "dist/js", //onde gera os arquivos em JS
         "target": "ES6", //versão do Javascript
         "noEmitOnError": true, //não permite compilar(gerar arquivos JS) com erros no TS
-        "noImplicitAny": true //não permite o TS inserir automaticamente o tipo Any nas propriedade
+        "noImplicitAny": true, //não permite o TS inserir automaticamente o tipo Any nas propriedade
+        "removeComments": true, //não compila pra pasta dist comentários de app
+        "strictNullChecks": true //obrigada a lidar com propriedades que a situação pode ser nula
+
     },
     "include": ["app/**/*"] //lê os arquivos TS de app
 }
