@@ -1,0 +1,28 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Json server configurado!",
+      "autoria": "Ias",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 2,
+      "conteudo": "Chamando o backend",
+      "autoria": "Ias",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 3,
+      "conteudo": "Angular é o melhor",
+      "autoria": "Ias",
+      "modelo": "modelo3"
+    },
+    {
+      "conteudo": "editando o pensamento",
+      "autoria": "teste",
+      "modelo": "modelo2",
+      "id": 4
+    }
+  ]
+}

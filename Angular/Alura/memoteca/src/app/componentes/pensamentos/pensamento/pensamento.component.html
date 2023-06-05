@@ -1,0 +1,13 @@
+<div class="pensamento {{ pensamentoFilho.modelo }} ff-roboto-mono" [ngClass]="larguraPensamento()"> <!-- ngClass torna possível a transmissão dos estilos do arquivo CSS de forma dinâmica para a classe typescript -->
+  <img src="../../../../assets/imagens/{{ pensamentoFilho.modelo }}.png" alt="Aspas coloridas">
+  <p class="conteudo">{{ pensamentoFilho.conteudo }}</p>
+  <p class="autoria"> <b>{{ pensamentoFilho.autoria }}</b></p>
+  <div class="acoes">
+    <button class="botao-editar" routerLink="/pensamentos/editarPensamento/{{pensamentoFilho.id}}">
+      <img src="../../../../assets/imagens/icone-editar.png" alt="Icone de editar">
+    </button>
+    <button class="botao-excluir" routerLink="/pensamentos/excluirPensamento/{{pensamentoFilho.id}}">
+      <img src="../../../../assets/imagens/icone-excluir.png" alt="Icone de excluir">
+    </button>
+  </div>
+</div>
